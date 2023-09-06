@@ -24,9 +24,9 @@ def yolov7():
     # path to model
     path_model_file = "models/yolov7best.pt"
 
-    source = ("Image Detection",
+    source = ("Image Detection"
               #"Video Detection",
-              "WebCam")
+              )
     options = st.selectbox("Select input", range(
         len(source)), format_func=lambda x: source[x])
 

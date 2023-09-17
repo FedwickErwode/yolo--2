@@ -19,8 +19,8 @@ import os
 def yolov7():
 
 
-    st.header('Yolov7 Model')
-    st.subheader('YOLOv7 Model Trained on Custom Dataset for Digital Electrical Layout Plans')
+    st.header('SkeySpot Yolo V7 Tool')
+    st.subheader('SkeySpot YOLO V7 Model Trained on Custom Dataset for Digital Electrical Layout Plans')
     # path to model
     path_model_file = "models/yolov7best.pt"
 
